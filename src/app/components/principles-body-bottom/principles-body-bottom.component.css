@@ -1,0 +1,41 @@
+.principles-container {
+    background-image: url("../../../assets/images/coffee-cup-nice-background-blur.png");
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* Drop shadow */
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+    box-shadow: 2px 2px 30px 0px rgba(0, 0, 0, 1);
+
+    width: 100%;
+    text-align: center;
+
+    padding: 2em;
+    margin-bottom: 5em;
+}
+
+.principle-header {
+    margin: 0;
+    padding: 0.5em;
+    font-family: Consolas;
+    font-size: 4em;
+    text-shadow: 0px 1px black;
+}
+
+.principle {
+    margin: 0 auto;
+    font-family: "Segoe UI Light";
+    font-size: 3em;
+    font-weight: bold;
+    line-height: 2em;
+    text-shadow: 1px 2px black;
+    color: white;
+}
+
+span {
+    color: green;
+}

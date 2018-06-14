@@ -1,0 +1,53 @@
+.background-image {
+    /* The image used */
+    background-image: url("../../../assets/images/background-coffee-blur.jpg");
+
+    /* Full height */
+    margin-top: 6em;
+    height: 50em;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* Drop shadow */
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+}
+
+.background-image-text {
+    position: relative;
+    float: left;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    text-align: center;
+    color:white;
+}
+
+.side-lines {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-family: "Sakkal Majalla";
+    font-size: 3em;
+}
+
+.side-lines:after, .side-lines:before {
+    content: '';
+    width: 150px;
+    height: 2px;
+    background: #18b244;
+    margin: 0 10px;
+}
+
+span {
+    font-family: "Nirmala UI";
+    font-size: 5em;
+}
+
+/* Typewriter effect blinking*/

@@ -1,0 +1,26 @@
+{
+  "name": "typewriter-js",
+  "version": "2.0.0",
+  "description": "Adds typewriter effect to HTML elements.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack demo.js dist.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gabrielflorit/typewriter-js.git"
+  },
+  "author": "Gabriel Florit",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gabrielflorit/typewriter-js/issues"
+  },
+  "homepage": "https://github.com/gabrielflorit/typewriter-js",
+  "dependencies": {
+    "animation-frame": "^0.2.5",
+    "element-class": "^0.2.2"
+  },
+  "devDependencies": {
+    "webpack": "^1.13.0"
+  }
+}

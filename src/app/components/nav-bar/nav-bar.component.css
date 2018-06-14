@@ -1,0 +1,99 @@
+/* NAVBAR STYLES */
+.navbar-default {
+    border: 0;
+}
+.container {
+    margin: 0; width: 100%; padding: 0;
+}
+
+/* MEDIA QUERIES */
+/* Nav bar Logo and text QUERIES*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+    .navbar-header .collapse, .navbar-toggle {
+        display:block !important;
+    }
+    .navbar-header {
+        float:none;
+    }
+}
+
+@media(max-width: 450px) {
+    .navbar-brand-text {
+        display: none;
+    }
+}
+
+@media(min-width: 450px) {
+    .navbar-brand-text {
+        height: 100%;
+        display: inline-block;
+        padding: 1em;
+        color: white;
+        font-family: 'PTC55F';
+        font-size: 2em;
+    }
+}
+
+/* Other element properties */
+.navbar-brand {
+    height: auto;
+    margin: 0.5em 0;
+    padding: 2em;
+
+    background-image: url("../../../assets/images/coffee.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-border-radius: 99em;
+    -moz-border-radius: 99em;
+
+    border-radius: 99em;
+    border: 3px solid #eee;
+    box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-nav {
+    float:right;
+    margin-right: 5em;
+}
+
+.navbar-nav li a {
+    color: white;
+    font-family: Calibri;
+    font-size: 1.4em;
+    padding: 2em;
+}
+
+.navbar-default {
+    background-color: #18b244;
+    border: 0;
+
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+}
+
+.container-fluid {
+    margin-left: 2em;
+}
+
+.navbar-toggle {
+    margin-top: 2em;
+}
+
+/* On:Hover items */
+.navbar-brand:hover {
+    -webkit-filter: grayscale(10%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    cursor: pointer;
+}
+
+.navbar-nav li a:hover {
+    color: #003366;
+}

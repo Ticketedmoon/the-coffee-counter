@@ -1,0 +1,47 @@
+.card-container {
+    width: 100%;
+    text-align: center;
+    background-color: #eeeeee;
+}
+
+@media (min-width: 1030px) {
+    .card {
+        display: inline-block;
+        text-align: left;
+        width: 25%;
+        margin: 3em;
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        border-radius: 5px;
+    }
+}
+
+@media (max-width: 1100px) {
+
+    .card {
+        display: inline-block;
+        text-align: left;
+        width: 80%;
+        margin: 3em;
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        border-radius: 5px;
+    }
+}
+
+.card-body {
+    padding: 1em;
+    font-family: "Calibri Light";
+}
+
+.card-text-heading { padding: 2em;}
+
+.card-text-heading h2 {
+    text-transform: uppercase;
+    font-family: "Sakkal Majalla";
+    font-size: 4em;
+}
+
+.img-fluid {
+    border-radius: 5px;
+}
