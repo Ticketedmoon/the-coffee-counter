@@ -9,6 +9,5 @@ Other technologies: **NodeJS + Npm**
 
 ###### End Goal:
 
-A fully responsive, dynamic, useful dashboard that hosts all the tenant health data.  
-It shows the *critical tenants* and the *low health tenants* as priority.  
+A fully responsive, dynamic, useful dashboard.
 This is where the dynamism comes into the site.   
